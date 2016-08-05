@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/bootstrap-offcanvas/dist/css/bootstrap.offcanvas.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -29,7 +30,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+
           <a class="navbar-brand" href="#">Abu Sport</a>
+
+          <button type="button" class="navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas">
+            <span class="sr-only">Toggle navigation</span>
+            <span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </span>
+          </button>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,6 +58,7 @@
               </ul>
             </li>
           </ul>
+
           <form class="navbar-form navbar-right">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search for...">
@@ -61,7 +73,8 @@
 
     <main class="container">
       <div class="row">
-        <aside class="col-md-2 sidebar-offcanvas hidden-xs" id="sidebar">
+        <aside class="col-md-2 col-sm-4 navbar-offcanvas navbar-offcanvas-touch" id="js-bootstrap-offcanvas">
+
           <ul class="nav nav-pills nav-stacked">
             <li role="presentation"><a href="#">Wallet <small class="text-left text-success">6000 тг</small></a></li>
             <li role="presentation" class=""><a href="#">My Profile</a></li>
@@ -73,27 +86,28 @@
             <li role="presentation"><a href="#">Help</a></li>
           </ul>
         </aside>
-        <div class="col-md-8 sports">
+        <div class="col-md-8 col-sm-8 sports">
+
           <div class="row row-space">
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/football.jpg">
                 <p class="sport-item-title">Football</p>
               </a>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/football.jpg">
                 <p class="sport-item-title">Football</p>
               </a>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/football.jpg">
                 <p class="sport-item-title">Football</p>
               </a>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/football.jpg">
                 <p class="sport-item-title">Football</p>
@@ -102,25 +116,25 @@
           </div>
 
           <div class="row row-space">
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/basketball.jpg">
                 <p class="sport-item-title">Basketball</p>
               </a>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/basketball.jpg">
                 <p class="sport-item-title">Basketball</p>
               </a>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/basketball.jpg">
                 <p class="sport-item-title">Basketball</p>
               </a>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/basketball.jpg">
                 <p class="sport-item-title">Basketball</p>
@@ -128,27 +142,26 @@
             </div>
           </div>
 
-
           <div class="row row-space">
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/football.jpg">
                 <p class="sport-item-title">Football</p>
               </a>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/football.jpg">
                 <p class="sport-item-title">Football</p>
               </a>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/football.jpg">
                 <p class="sport-item-title">Football</p>
               </a>
             </div>
-            <div class="col-md-3 col-sm-3 col-xs-6 sport-item">
+            <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
               <a href="#">
                 <img class="img-responsive" src="img/football.jpg">
                 <p class="sport-item-title">Football</p>
@@ -164,5 +177,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/bootstrap-offcanvas/dist/js/bootstrap.offcanvas.js"></script>
   </body>
 </html>
