@@ -20,19 +20,10 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <a class="navbar-brand" href="#">Abu Sport</a>
-
           <button type="button" class="navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas">
             <span class="sr-only">Toggle navigation</span>
             <span>
@@ -41,25 +32,26 @@
               <span class="icon-bar"></span>
             </span>
           </button>
+
+          <a class="navbar-brand" href="#">Abu Sport</a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-bell"></span> 2</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-vertical"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
-          </ul>
+        <form class="navbar-form navbar-right navbar-form__mobile">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </nav>
 
-          <form class="navbar-form navbar-right">
+    <main class="container">
+      <div class="row">
+        <aside class="col-md-2 hidden-sm navbar-offcanvas navbar-offcanvas-touch" id="js-bootstrap-offcanvas">
+
+          <form class="navbar-offcanvas-form hidden-sm hidden-md hidden-lg">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search for...">
               <span class="input-group-btn">
@@ -67,13 +59,6 @@
               </span>
             </div>
           </form>
-        </div>
-      </div>
-    </nav>
-
-    <main class="container">
-      <div class="row">
-        <aside class="col-md-2 col-sm-4 navbar-offcanvas navbar-offcanvas-touch" id="js-bootstrap-offcanvas">
 
           <ul class="nav nav-pills nav-stacked">
             <li role="presentation"><a href="#">Wallet <small class="text-left text-success">6000 тг</small></a></li>
@@ -86,7 +71,7 @@
             <li role="presentation"><a href="#">Help</a></li>
           </ul>
         </aside>
-        <div class="col-md-8 col-sm-8 sports">
+        <div class="col-md-8 col-sm-12 sports">
 
           <div class="row row-space">
             <div class="col-md-3 col-sm-6 col-xs-6 sport-item">
@@ -172,6 +157,12 @@
         <div class="col-md-2"></div>
       </div>
     </main>
+
+    <footer class="footer">
+      <div class="container">
+        
+      </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
