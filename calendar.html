@@ -48,13 +48,11 @@
       </div>
     </nav>
 
-    <div class="tabs">
-      <ul class="tabs-panel">
-        <li><a href="#">Матчи</a></li>
-        <li class="active"><a href="#">Календарь</a></li>
-        <li><a href="#">Информация</a></li>
-      </ul>
-    </div>
+    <ul class="tabs-panel">
+      <li><a href="#">Матчи</a></li>
+      <li class="active"><a href="#">Календарь</a></li>
+      <li><a href="#">Информация</a></li>
+    </ul>
 
     <main class="container">
       <div class="row">
@@ -81,36 +79,60 @@
         </aside>
         <div class="col-md-8 col-sm-12 sports">
           <div class="row-space areas">
+
             <h4>Футбольное поле Медина > Поле 1</h4>
-            <ul class="nav nav-tabs nav-justified">
-              <li role="presentation"><a href="#">День</a></li>
-              <li role="presentation"><a href="#">4 дня</a></li>
-              <li role="presentation" class="active"><a href="#">Неделя</a></li>
-            </ul>
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default">День</button>
+              <button type="button" class="btn btn-default">4 дня</button>
+              <button type="button" class="btn btn-default active">Неделя</button>
+            </div>
+            <br>
+
+            <div class="calendar">
+              
+            </div>
+
             <div class="table-responsive">
-              <table class="table table-striped table-hover table-bordered">
+              <table class="table-calendar table-striped table-hover table-bordered">
                 <thead>
                   <tr>
                     <th></th>
-                    <th>24 СР</th>
-                    <th>25 ЧТ</th>
-                    <th>26 ПТ</th>
-                    <th>27 СБ</th>
-                    <th>28 ВС</th>
-                    <th>29 ПН</th>
-                    <th>30 ВТ</th>
+                    <th>24 Ср</th>
+                    <th>25 Чт</th>
+                    <th>26 Пт</th>
+                    <th>27 Сб</th>
+                    <th>28 Вс</th>
+                    <th>29 Пн</th>
+                    <th>30 Вт</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td></td>
-                    <td>info</td>
-                    <td>info</td>
-                    <td>info</td>
-                    <td>info</td>
-                    <td>info</td>
-                    <td>info</td>
-                    <td>info</td>
+                    <td class="text-right">
+                      <div>00:00</div>
+                      <div>01:00</div>
+                      <div>02:00</div>
+                      <div>03:00</div>
+                      <div>04:00</div>
+                      <div>05:00</div>
+                      <div>06:00</div>
+                      <div>07:00</div>
+                      <div>08:00</div>
+                      <div>09:00</div>
+                      <div>10:00</div>
+                      <div>11:00</div>
+                      <div>12:00</div>
+                      <div>13:00</div>
+                      <div>15:00</div>
+                      <div>16:00</div>
+                      <div>17:00</div>
+                      <div>18:00</div>
+                      <div>19:00</div>
+                      <div>20:00</div>
+                      <div>21:00</div>
+                      <div>22:00</div>
+                      <div>23:00</div>
+                    </td>
                   </tr>
                   <tr>
                     <td></td>
