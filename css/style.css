@@ -16,17 +16,8 @@ main.container {
   margin-top: 30px;
 }
 
-.content {
-  height: 500px;
-  background-color: blue;
-}
-
-.sports .col-md-3 {
-
-}
-
 /* Sports */
-.row-space {
+.sports > .row {
   margin-bottom: 30px;
 }
 .navbar {
@@ -66,7 +57,7 @@ main.container {
   .navbar > div > .navbar-form__mobile {
     display: none;
   }
-  .row-space {
+  .sports > .row {
     margin-bottom: 0;
   }
   .sports .sport-item {
